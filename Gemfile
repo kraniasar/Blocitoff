@@ -9,13 +9,19 @@ end
 
 group :development do
   gem 'sqlite3'
-  gem 'pry-rails'
+  gem 'binding_of_caller'
+  gem 'better_errors'
 end
 
 group :development, :test do
+  gem 'pry-rails'
+end
+
+group :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'shoulda'
   gem 'factory_girl_rails', '~> 4.0'
+  gem 'simplecov'
 end
 
 # Use SCSS for stylesheets
@@ -28,6 +34,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+
+gem 'devise'
 
 gem 'bcrypt'
 
