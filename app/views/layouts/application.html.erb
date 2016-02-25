@@ -2,13 +2,27 @@
 <html>
 <head>
   <title>Blocitoff</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li><%= link_to "Home", welcome_index_path %></li>
+      <li><%= link_to "About", welcome_about_path %></li>
+    </ul>
 
-<%= yield %>
-
+    <div class="pull-right user-info">
+      <% if current_user %>
+      Hello <%= link_to current_user.email, edit_user_registration_path %>! <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+      <% else %>
+      <%= link_to "Sign In", new_user_session_path %> or
+      <%= link_to "Sign Up", new_user_registration_path %>
+      <% end %>
+    </div>
+    <%= yield %>
+  </div>
 </body>
 </html>
