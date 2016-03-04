@@ -1,0 +1,6 @@
+<%= form_for [user, item]  do |f| %>
+  <div class="form-group">
+    <%= f.text_field :name, class: 'form-control', placeholder: "Enter a new task"%>
+    <%= f.submit "Submit Task", class: 'btn btn-info pull-right' %>
+  </div>
+<% end %>
