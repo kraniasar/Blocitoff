@@ -37,6 +37,8 @@ gem 'turbolinks'
 
 gem 'devise'
 
+gem 'faker'
+
 gem 'bcrypt'
 
 gem 'bootstrap-sass'
