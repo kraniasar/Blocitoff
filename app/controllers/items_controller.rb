@@ -9,8 +9,17 @@ class ItemsController < ApplicationController
     end
   end
 
+  def destroy
+    @item = Item.find(params[:id])
+    if @item.destroy
+      flash[:notice] = "\"#{@item.name}\" -is- DONE!"
+    else
+      flash.now[:alert] = "There was an error marking off this item."
+    end
+  end
 
-private
+  private
+
   def item_params
     params.require(:item).permit(:name)
   end
