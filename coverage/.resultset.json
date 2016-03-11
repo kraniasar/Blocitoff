@@ -140,6 +140,7 @@
         null,
         null,
         1,
+        1,
         null,
         null
       ],
@@ -634,9 +635,15 @@
       "/Users/amanda/code/blocitoff/app/models/item.rb": [
         1,
         1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1457662378
+    "timestamp": 1457663446
   }
 }
