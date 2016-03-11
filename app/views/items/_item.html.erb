@@ -1,1 +1,4 @@
-<%= link_to "", [@user, item], method: :delete, class: 'glyphicon glyphicon-ok' %>
+<%= content_tag :tr, class: "info", id: "item-#{item.id}" do %>
+  <td><%= link_to "", [current_user, item], method: :delete, class: 'glyphicon glyphicon-ok', remote: true %></td>
+  <td><%= item.name %></td>
+<% end %>

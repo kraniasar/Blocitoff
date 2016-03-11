@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/amanda/code/blocitoff/spec/controllers/items_controller_spec.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/spec/controllers/items_controller_spec.rb": [
         1,
         null,
         1,
@@ -39,7 +39,7 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/spec/rails_helper.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -99,14 +99,14 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/environment.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/amanda/code/blocitoff/config/application.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/application.rb": [
         1,
         null,
         1,
@@ -143,12 +143,12 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/boot.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/amanda/code/blocitoff/config/environments/test.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/environments/test.rb": [
         1,
         null,
         null,
@@ -194,7 +194,7 @@
         1,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/assets.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -207,7 +207,7 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/backtrace_silencers.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -216,12 +216,12 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/cookies_serializer.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/devise.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -488,13 +488,13 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/filter_parameter_logging.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/inflections.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -512,18 +512,18 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/mime_types.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/session_store.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/amanda/code/blocitoff/config/initializers/wrap_parameters.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -539,14 +539,14 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/spec/factories/item.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/spec/factories/item.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/spec/factories/user.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/spec/factories/user.rb": [
         1,
         1,
         2,
@@ -554,7 +554,7 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/config/routes.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/config/routes.rb": [
         1,
         1,
         null,
@@ -571,7 +571,7 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/models/user.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/models/user.rb": [
         1,
         null,
         1,
@@ -581,19 +581,19 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/helpers/application_helper.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/helpers/users_helper.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/helpers/welcome_helper.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/helpers/welcome_helper.rb": [
         1,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/controllers/items_controller.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/controllers/items_controller.rb": [
         1,
         1,
         1,
@@ -621,19 +621,19 @@
         null,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/controllers/application_controller.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/amanda/code/blocitoff/app/models/item.rb": [
+      "/Users/brittanymartin/projects/kraniasar/blocitoff/app/models/item.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1457479278
+    "timestamp": 1457655909
   }
 }

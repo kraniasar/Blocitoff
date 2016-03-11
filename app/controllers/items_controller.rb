@@ -10,11 +10,14 @@ class ItemsController < ApplicationController
   end
 
   def destroy
-    @item = Item.find(params[:id])
+    @user = current_user
+    @item = @user.items.find(params[:id])
+
     if @item.destroy
-      flash[:notice] = "\"#{@item.name}\" -is- DONE!"
-    else
-      flash.now[:alert] = "There was an error marking off this item."
+      respond_to do |format|
+        format.html
+        format.js
+      end
     end
   end
 
