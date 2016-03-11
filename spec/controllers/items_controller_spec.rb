@@ -5,7 +5,6 @@ RSpec.describe ItemsController, type: :controller do
   before { User.delete_all }
   before { Item.delete_all }
 
-   #set up your factories before you do this!
    before(:each) do
      @user = FactoryGirl.create(:user)
      sign_in @user
@@ -19,4 +18,19 @@ RSpec.describe ItemsController, type: :controller do
        expect(response).to redirect_to(user_path(@user.id))
      end
    end
-end
+
+   def destroy
+    @item = Item.find(params[:id])
+    if @item.destroy
+      flash[:notice] = "\"#{@item.name}\" -is- DONE!"
+    else
+      flash.now[:alert] = "There was an error marking off this item."
+    end
+  end
+
+  private
+
+  def item_params
+    params.require(:item).permit(:name)
+    end
+  end
